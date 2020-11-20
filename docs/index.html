@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-    <meta name="description" content="docsify-tabs - A docsify.js plugin for rendering tabbed content from markdown.">
+    <meta name="description" content="docs-skeleton - A static website based on docsify.">
     <meta name="google-site-verification" content="_EWJaM8G6xwMtEqemO4yN8WqSU2CaKVi3jTj0gLg48E">
-    <title>docsify-tabs - A docsify.js plugin for rendering tabbed content from markdown</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="Simple">
+    <title>docs-skeleton - docsify.js - with tabbed content from markdown</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="Simple-Dark">
     <link rel="stylesheet" href="assets/css/main.css">
 
     <!-- Test Stylesheets -->
@@ -27,8 +27,8 @@
         window.$docsify = {
             // GENERAL
             // -----------------------------------------------------------------
-            name       : 'docsify-tabs',
-            repo       : 'https://github.com/jhildenbiddle/docsify-tabs',
+            name       : 'docs-skeleton',
+            repo       : 'https://github.com/IgorKerstges/docs-skeleton',
             homepage   : 'index.md',
             loadSidebar: 'sidebar.md',
 
@@ -50,12 +50,15 @@
                 noData     : 'No results!',
                 placeholder: 'Search...'
             },
+
+            // TABS
+            // -----------------------------------------------------------------
             tabs: {
-                // persist    : false,
-                // sync       : false,
-                // theme      : 'material',
-                // tabComments: false,
-                // tabHeadings: false
+                persist    : true,
+                sync       : true,
+                theme      : 'material',
+                tabComments: true,
+                tabHeadings: true
             }
         };
     </script>
