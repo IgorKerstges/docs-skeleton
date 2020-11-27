@@ -2,6 +2,11 @@
 
 A [docsify.js](https://docsify.js.org) plugin for rendering tabbed content from markdown.
 
+##Test
+
+<FORM NAME="myform" ACTION="" METHOD="GET">Enter something in the box: <BR>
+<INPUT TYPE="text" NAME="inputbox" VALUE=""><P>
+
 ## Demo
 
 A basic tab set using the default [options](#options).
