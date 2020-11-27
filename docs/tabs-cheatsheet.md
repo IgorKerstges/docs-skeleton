@@ -6,7 +6,6 @@ A [docsify.js](https://docsify.js.org) plugin for rendering tabbed content from 
 
 Your Domain Name:<input type="text" id="inputDomain" value="type.yourdomain.com"> 
 <button type="button" onclick="myFunction()"> Return the Domain Name </button> 
-<p id="demo"></p> 
 <script>function myFunction() {var domain=document.getElementById("inputDomain").value;alert(domain);}</script>
 
 ## Demo
