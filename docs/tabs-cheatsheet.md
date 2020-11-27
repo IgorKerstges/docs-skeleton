@@ -4,10 +4,7 @@ A [docsify.js](https://docsify.js.org) plugin for rendering tabbed content from 
 
 ## Test
 
-Name: 
-    <input type="text"
-           id="myText"
-           value="Mickey"> 
+Name:<input type="text" id="myText" value="Mickey"> 
   
     <button type="button" 
             onclick="myFunction()"> 
