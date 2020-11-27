@@ -4,10 +4,10 @@ A [docsify.js](https://docsify.js.org) plugin for rendering tabbed content from 
 
 ## Test
 
-Name:<input type="text" id="myText" value="Mickey"> 
-<button type="button" onclick="myFunction()"> Try it </button> 
+Your Domain Name:<input type="text" id="inputDomain" value="type.yourdomain.com"> 
+<button type="button" onclick="myFunction()"> Return the Domain Name </button> 
 <p id="demo"></p> 
-<script>function myFunction() {var x=document.getElementById("myText").value; document.getElementById("demo").innerHTML=x;}</script>
+<script>function myFunction() {var domain=document.getElementById("inputDomain").value; document.getElementById("demo").innerHTML=domain;}</script>
 
 ## Demo
 
