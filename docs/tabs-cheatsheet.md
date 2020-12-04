@@ -8,9 +8,7 @@ Your Domain Name: <input type="text" id="inputDomain" value="type.yourdomain.com
 <button type="button" onclick="myFunction()"> Return the Domain Name </button> 
 <script>function myFunction() {var domain=document.getElementById("inputDomain").value;alert(domain);}</script>
 
-"The value for the Domain Name is (Just trying to use the var): " <span id="inputDomain"></span>
-
-"The value for the Domane Name is (Trying to use "document.write"): " <script type="text/javascript">document.write(inputDomain)</script>
+"The value for the Domane Name is (Trying to use document.write): " <script type="text/javascript">document.write(domain)</script>
 
 ## Demo
 
