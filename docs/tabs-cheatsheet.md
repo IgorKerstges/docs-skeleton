@@ -8,6 +8,8 @@ Your Domain Name: <input type="text" id="inputDomain" value="type.yourdomain.com
 <button type="button" onclick="myFunction()"> Return the Domain Name </button> 
 <script>function myFunction() {var domain=document.getElementById("inputDomain").value;alert(domain);}</script>
 
+"The value for the Domain Name is: " <span id="domain"></span>
+
 ## Demo
 
 A basic tab set using the default [options](#options).
