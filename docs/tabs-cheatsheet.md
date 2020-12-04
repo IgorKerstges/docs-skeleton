@@ -5,10 +5,10 @@ A [docsify.js](https://docsify.js.org) plugin for rendering tabbed content from 
 ## Test
 
 Your Domain Name: <input type="text" id="inputDomain" value="type.yourdomain.com"> 
-<button type="button" onclick="myFunction()"> Return the Domain Name </button> 
+<button type="button" onclick="myFunction()"> Return the Domain Name (popup) </button> 
 <script>function myFunction() {var domain=document.getElementById("inputDomain").value;alert(domain);}</script>
 
-"The value for the Domane Name is (Trying to use document.write): " <script type="text/javascript">document.write(domain)</script>
+"The value for the Domane Name is (Trying to use myFunction in the page): " <script>myFunction(domain)</script>
 
 ## Demo
 
